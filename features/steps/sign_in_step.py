@@ -6,7 +6,8 @@ from selenium.webdriver.support import expected_conditions
  
 @given(u'user is on the landing page')  
 def step_impl(context):  
-    context.browser.get("http://localhost:8080/")  
+    context.browser.get("https://google.com/")  
+    print("FAIL")
  
 @when(u'user clicks on launch button')  
 def step_impl(context):  
