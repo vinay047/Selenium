@@ -1,4 +1,3 @@
-Edit
 Feature: SignIn 
     Scenario: successfully sign in to the account  
         Given user is on the landing page  
